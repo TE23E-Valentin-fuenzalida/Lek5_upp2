@@ -1,14 +1,12 @@
-#Backgrund{
+.Backgrund{
     background-image: url(/img/snow_winter_trees.jpg);
+    background-size: cover;
+    background-position: 55%;
 }
 
-#SMHI{
-    border: 3px solid black;
-    max-width: 1vw;
-}
-
-.länkar{
-    display: flex;
+.bilder{
     border: 2px solid #D6001C;
+    max-height: 100px;
+    flex-direction: row;
 }
 
