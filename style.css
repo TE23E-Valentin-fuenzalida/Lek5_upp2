@@ -1,3 +1,6 @@
+
+
+
 .Backgrund{
     background-image: url(/img/snow_winter_trees.jpg);
     background-size: cover;
@@ -6,7 +9,32 @@
 
 .bilder{
     border: 2px solid #D6001C;
-    max-height: 100px;
+    max-height: 30px;
     flex-direction: row;
+    justify-content: space-around;
+
 }
 
+.lankar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;  
+}
+
+h1{
+    text-align: center;
+}
+
+
+.SÄDV{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+
+.SÄDV{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: bold;
+}
