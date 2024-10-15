@@ -50,24 +50,28 @@ h1{
 }
 
 .mellan{
+    display: flex;
     border: 2px solid #D6001C;
     border-radius: 5px;
     width: 100%;
-    height: 600px;
+    height: 530px;
+    margin-top: 5px;
 }
 
 .vänster{
     display:flex;
     border: 2px solid #D6001C;
     border-radius: 5px;
-    width: 12%;
-    height: 600px;
+    width: 13%;
+    height: 500px;
     flex-direction: column;
     align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .Bilder{
-    border: 2px solid #D6001C;
+    border: 2px solid black;
     border-radius: 5px;
     max-width: 100%;
     max-height: 300px;
@@ -76,6 +80,7 @@ h1{
     padding: 0px;
     margin: 0px;
     margin-left: 10px;
+
 }
 
 .webb_utveckling{
@@ -83,5 +88,38 @@ h1{
 }
 
 .main{
-    
+    border: 2px solid #D6001C;
+    border-radius: 5px;
+    width: 75%;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+p{
+    margin-right: 20px;
+}
+
+.höger{
+    display: flex;
+    border: 2px solid #D6001C;
+    border-radius: 5px;
+    width: 90px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.julträd{
+    width: 90px;
+}
+
+.sidfot{
+    border: 2px solid #D6001C;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
 }
