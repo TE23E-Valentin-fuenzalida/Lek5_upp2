@@ -5,20 +5,30 @@
     background-image: url(/img/snow_winter_trees.jpg);
     background-size: cover;
     background-position: 55%;
+    border: 2px solid #D6001C;
+    border-radius: 5px;
 }
 
+
 .bilder{
-    border: 2px solid #D6001C;
-    max-height: 30px;
+    border: 2px solid black;
+    max-height: 35px;
     flex-direction: row;
     justify-content: space-around;
-
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 .lankar {
     display: flex;
     justify-content: center;
     justify-content: space-around;  
+    border: 2px solid #D6001C;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 50px;
 }
 
 h1{
@@ -36,5 +46,42 @@ h1{
 .SÄDV{
     font-family: "Mountains of Christmas", serif;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
+}
+
+.mellan{
+    border: 2px solid #D6001C;
+    border-radius: 5px;
+    width: 100%;
+    height: 600px;
+}
+
+.vänster{
+    display:flex;
+    border: 2px solid #D6001C;
+    border-radius: 5px;
+    width: 12%;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bilder{
+    border: 2px solid #D6001C;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 300px;
+    width: 80%;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.webb_utveckling{
+    margin-top: 10px;
+}
+
+.main{
+    
 }
